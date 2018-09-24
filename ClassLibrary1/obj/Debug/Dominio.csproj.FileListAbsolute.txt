@@ -1,0 +1,12 @@
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\bin\Debug\Dominio.dll
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\bin\Debug\Dominio.pdb
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.dll
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.pdb
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\bin\Debug\Dominio.dll
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\bin\Debug\Dominio.pdb
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.dll
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\ClassLibrary1\obj\Debug\Dominio.pdb

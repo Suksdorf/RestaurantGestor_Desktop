@@ -1,0 +1,18 @@
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\bin\Debug\Negocio.dll
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\bin\Debug\Dominio.dll
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\obj\Debug\Negocio.dll
+C:\Users\Fernando Suksdorf\Desktop\Facultad\Programación III 3\TPC_Suksdorf\Negocio\obj\Debug\Negocio.pdb
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\bin\Debug\Negocio.dll
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\bin\Debug\Dominio.dll
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\bin\Debug\Dominio.pdb
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\obj\Debug\Negocio.dll
+C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\Negocio\obj\Debug\Negocio.pdb

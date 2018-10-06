@@ -38,3 +38,24 @@ C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Prese
 C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.exe
 C:\Users\ferna\Downloads\TPC1_Suksdorf\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.pdb
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\TPC_Suksdorf.exe.config
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\TPC_Suksdorf.exe
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\TPC_Suksdorf.pdb
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\Dominio.dll
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\Negocio.dll
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\Dominio.pdb
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\bin\Debug\Negocio.pdb
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.Form1.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_AbrirPedido.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_Admin.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_Asignacion.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_Pedido.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_PedidosActivos.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.Properties.Resources.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.exe
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.pdb
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_Meseros.resources

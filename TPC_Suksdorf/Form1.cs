@@ -34,5 +34,19 @@ namespace TPC_Suksdorf
             frm_PedidosActivos frmPedidosActivos = new frm_PedidosActivos();
             frmPedidosActivos.ShowDialog();
         }
+
+        private void meserosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach(Form formu in Application.OpenForms)
+            {
+                if (formu.GetType() == typeof(frm_Meseros))
+                {
+                    return;
+                }
+            }
+            frm_Meseros formulario = new frm_Meseros();
+            formulario.MdiParent = this;
+            formulario.Show();
+        }
     }
 }

@@ -43,6 +43,10 @@
             this.meserosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mesasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mesaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.meseroToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +76,7 @@
             this.nuevoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pedidoToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             // 
             // pedidoToolStripMenuItem
@@ -86,7 +90,7 @@
             // asignarMesasToolStripMenuItem
             // 
             this.asignarMesasToolStripMenuItem.Name = "asignarMesasToolStripMenuItem";
-            this.asignarMesasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.asignarMesasToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.asignarMesasToolStripMenuItem.Text = "Asignar Mesas";
             this.asignarMesasToolStripMenuItem.Click += new System.EventHandler(this.asignarMesasToolStripMenuItem_Click);
             // 
@@ -94,7 +98,8 @@
             // 
             this.edicionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.verEditarPedidosToolStripMenuItem,
-            this.altaToolStripMenuItem});
+            this.altaToolStripMenuItem,
+            this.modificarToolStripMenuItem});
             this.edicionToolStripMenuItem.Name = "edicionToolStripMenuItem";
             this.edicionToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.edicionToolStripMenuItem.Text = "Edicion";
@@ -149,6 +154,7 @@
             this.meserosToolStripMenuItem.Name = "meserosToolStripMenuItem";
             this.meserosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.meserosToolStripMenuItem.Text = "Meseros";
+            this.meserosToolStripMenuItem.Click += new System.EventHandler(this.meserosToolStripMenuItem_Click);
             // 
             // mesasToolStripMenuItem
             // 
@@ -162,6 +168,34 @@
             this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
+            // modificarToolStripMenuItem
+            // 
+            this.modificarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mesaToolStripMenuItem1,
+            this.meseroToolStripMenuItem1,
+            this.proveedorToolStripMenuItem1});
+            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Text = "Modificar";
+            // 
+            // mesaToolStripMenuItem1
+            // 
+            this.mesaToolStripMenuItem1.Name = "mesaToolStripMenuItem1";
+            this.mesaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mesaToolStripMenuItem1.Text = "Mesa";
+            // 
+            // meseroToolStripMenuItem1
+            // 
+            this.meseroToolStripMenuItem1.Name = "meseroToolStripMenuItem1";
+            this.meseroToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.meseroToolStripMenuItem1.Text = "Mesero";
+            // 
+            // proveedorToolStripMenuItem1
+            // 
+            this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
+            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.proveedorToolStripMenuItem1.Text = "Proveedor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,9 +204,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Restó";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -197,6 +232,10 @@
         private System.Windows.Forms.ToolStripMenuItem meserosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mesasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mesaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem meseroToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem1;
     }
 }
 

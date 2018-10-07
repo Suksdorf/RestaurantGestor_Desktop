@@ -55,7 +55,6 @@
             this.Name = "frm_Meseros";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meseros";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_Meseros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMeseros)).EndInit();
             this.ResumeLayout(false);

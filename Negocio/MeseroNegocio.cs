@@ -13,20 +13,23 @@ namespace Negocio
         public List<Mesero> Listar()
         {
             List<Mesero> lista = new List<Mesero>();
-            SqlConnection conexion = new SqlConnection("data source=.; initial catalog=SUKSDORF_DB; integrated security=sspi");
-            SqlCommand comando = new SqlCommand("select id, nombre, clave from meseros", conexion);
-            SqlDataReader lector;
+            //SqlConnection conexion = new SqlConnection("data source=.; initial catalog=SUKSDORF_DB; integrated security=sspi");
+            //SqlCommand comando = new SqlCommand("select id, nombre, clave from meseros", conexion);
+            //SqlDataReader lector;
+            AccesoDatos conexion = new AccesoDatos();
             try
             {
-                conexion.Open();
-                lector = comando.ExecuteReader();
+                
+                conexion.SetearConsulta("select id, nombre, clave from meseros");
+                conexion.AbrirConexion();
+                conexion.EjecutarComando();
 
-                while (lector.Read())
+                while (conexion.Lector.Read())
                 {
                     Mesero mesero = new Mesero();
-                    mesero.id = lector.GetInt32(0);
-                    mesero.nombre = lector.GetString(1);
-                    mesero.clave = lector.GetString(2);
+                    mesero.id = conexion.Lector.GetInt32(0);
+                    mesero.nombre = conexion.Lector.GetString(1);
+                    mesero.clave = conexion.Lector.GetString(2);
 
                     lista.Add(mesero);
                 }
@@ -39,7 +42,7 @@ namespace Negocio
             }
             finally
             {
-                conexion.Close();
+                conexion.CerrarConexion();
                 conexion = null;
             }
         }

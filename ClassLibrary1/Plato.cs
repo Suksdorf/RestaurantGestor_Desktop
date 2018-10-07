@@ -8,7 +8,8 @@ namespace Dominio
 {
     class Plato
     {
-        public String nombre;
+        public string nombre { get; set; }
+        public float precio;
         public int id;
     }
 }

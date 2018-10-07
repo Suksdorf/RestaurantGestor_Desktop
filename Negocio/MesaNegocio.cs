@@ -13,20 +13,19 @@ namespace Negocio
         public List<Mesa> Listar()
         {
             List<Mesa> lista = new List<Mesa>();
- 
-            SqlConnection conexion = new SqlConnection("data source=.; initial catalog=SUKSDORF_DB; integrated security=sspi");
-            SqlCommand comando = new SqlCommand("select id, nombre from mesas", conexion);
-            SqlDataReader lector;
+            AccesoDatos conexion = new AccesoDatos();
 
             try
             {
-                conexion.Open();
-                lector = comando.ExecuteReader();
-                while (lector.Read())
+                conexion.SetearConsulta("select id, nombre from mesas");
+                conexion.AbrirConexion();
+                conexion.EjecutarComando();
+                
+                while (conexion.Lector.Read())
                 {
                     Mesa aux = new Mesa();
-                    aux.id = lector.GetInt32(0);
-                    aux.nombre = lector.GetString(1);
+                    aux.id = conexion.Lector.GetInt32(0);
+                    aux.nombre = conexion.Lector.GetString(1);
                     lista.Add(aux);
                 }
                 return lista;
@@ -37,7 +36,7 @@ namespace Negocio
             }
             finally
             {
-                conexion.Close();
+                conexion.CerrarConexion();
                 conexion = null;
             }
         }

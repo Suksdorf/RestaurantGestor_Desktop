@@ -34,8 +34,10 @@
             // 
             // dgv_Pedidos
             // 
+            this.dgv_Pedidos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv_Pedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Pedidos.Location = new System.Drawing.Point(53, 49);
+            this.dgv_Pedidos.Location = new System.Drawing.Point(50, 23);
             this.dgv_Pedidos.Name = "dgv_Pedidos";
             this.dgv_Pedidos.ReadOnly = true;
             this.dgv_Pedidos.Size = new System.Drawing.Size(474, 231);

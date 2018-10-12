@@ -35,18 +35,22 @@ namespace TPC_Suksdorf
             frmPedidosActivos.ShowDialog();
         }
 
-        private void meserosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void proveedoresToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            foreach(Form formu in Application.OpenForms)
-            {
-                if (formu.GetType() == typeof(frm_Meseros))
-                {
-                    return;
-                }
-            }
-            frm_Meseros formulario = new frm_Meseros();
-            formulario.MdiParent = this;
-            formulario.Show();
+            frmVistas formulario = new frmVistas(1);
+            formulario.ShowDialog();
+        }
+
+        private void meserosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmVistas formulario = new frmVistas(2);
+            formulario.ShowDialog();
+        }
+
+        private void platosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVistas formulario = new frmVistas(3);
+            formulario.ShowDialog();
         }
     }
 }

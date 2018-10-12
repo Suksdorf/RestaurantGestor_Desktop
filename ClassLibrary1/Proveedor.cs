@@ -8,6 +8,7 @@ namespace Dominio
 {
     public class Proveedor : Persona
     {
+        public int id;
         public string Producto { get; set; }
         DateTime Horario; //solo orientativo (modificar)
     }

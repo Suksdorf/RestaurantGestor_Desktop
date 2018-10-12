@@ -58,4 +58,5 @@ C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Pre
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.exe
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.pdb
-C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frm_Meseros.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmVistas.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmPlatoAM.resources

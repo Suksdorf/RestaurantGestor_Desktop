@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    class Plato
+    public class Plato
     {
-        public string nombre { get; set; }
-        public float precio;
-        public int id;
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
+        public int Id { get; set; }
     }
 }

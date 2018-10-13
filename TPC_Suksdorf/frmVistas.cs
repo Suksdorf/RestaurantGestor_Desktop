@@ -30,9 +30,12 @@ namespace TPC_Suksdorf
                 {
                     case 1:
                         this.Text = "Proveedores";
+                        dgvVistas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
                         ProveedorNegocio proveedor = new ProveedorNegocio();
                         dgvVistas.DataSource = proveedor.Listar();
-                        dgvVistas.Columns["Producto"].DisplayIndex = 1;
+                        dgvVistas.Columns["Nombre"].DisplayIndex = 0;
+                        dgvVistas.Columns["Descripcion"].Visible = false;
+                        dgvVistas.Columns["Id"].Visible = false;
                         break;
                     case 2:
                         this.Text = "Meseros";
@@ -59,9 +62,13 @@ namespace TPC_Suksdorf
             {
                 switch (padre)
                 {
+                    case 1:
+                        frmProveedoresAM formulario1 = new frmProveedoresAM();                      
+                        formulario1.ShowDialog();
+                        break;
                     case 3:
-                        frmPlatoAM formulario = new frmPlatoAM();
-                        formulario.ShowDialog();
+                        frmPlatoAM formulario2 = new frmPlatoAM();
+                        formulario2.ShowDialog();
                         break;
                 }
             }
@@ -81,9 +88,14 @@ namespace TPC_Suksdorf
             {
                 switch (padre)
                 {
+                    case 1:
+                        frmProveedoresAM formulario1 = new frmProveedoresAM((Proveedor)dgvVistas.CurrentRow.DataBoundItem);
+                        formulario1.Text = "Modificar proveedor";
+                        formulario1.ShowDialog();
+                        break;
                     case 3:
-                        Plato aux = new Plato();
                         frmPlatoAM formulario = new frmPlatoAM((Plato)dgvVistas.CurrentRow.DataBoundItem);
+                        formulario.Text = "Modificar plato";
                         formulario.ShowDialog();
                         break;
                 }
@@ -107,9 +119,13 @@ namespace TPC_Suksdorf
             {
                 switch (padre)
                 {
+                    case 1:
+                        ProveedorNegocio neg1 = new ProveedorNegocio();
+                        neg1.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
+                        break;
                     case 3:
-                        PlatoNegocio neg = new PlatoNegocio();
-                        neg.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
+                        PlatoNegocio neg3 = new PlatoNegocio();
+                        neg3.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
                         break;
                 }
             }

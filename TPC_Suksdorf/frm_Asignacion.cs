@@ -25,7 +25,7 @@ namespace TPC_Suksdorf
             List<Mesero> listaMeseros = meseronegocio.Listar();
             foreach (Mesero elemento in listaMeseros)
             {
-                ltb_Meseros.Items.Add(elemento.nombre);
+                ltb_Meseros.Items.Add(elemento.Nombre);
             }
 
             MesaNegocio mesanegocio = new MesaNegocio();

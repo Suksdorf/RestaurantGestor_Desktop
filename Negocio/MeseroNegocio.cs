@@ -28,7 +28,7 @@ namespace Negocio
                 {
                     Mesero mesero = new Mesero();
                     mesero.id = conexion.Lector.GetInt32(0);
-                    mesero.nombre = conexion.Lector.GetString(1);
+                    mesero.Nombre = conexion.Lector.GetString(1);
                     mesero.clave = conexion.Lector.GetString(2);
 
                     lista.Add(mesero);

@@ -35,14 +35,6 @@
             this.asignarMesasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edicionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verEditarPedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.meseroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mesaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mesaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.meseroToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.proveedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.administrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mesasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.meserosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,9 +91,7 @@
             // edicionToolStripMenuItem
             // 
             this.edicionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.verEditarPedidosToolStripMenuItem,
-            this.altaToolStripMenuItem,
-            this.modificarToolStripMenuItem});
+            this.verEditarPedidosToolStripMenuItem});
             this.edicionToolStripMenuItem.Name = "edicionToolStripMenuItem";
             this.edicionToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.edicionToolStripMenuItem.Text = "Edicion";
@@ -112,62 +102,6 @@
             this.verEditarPedidosToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.verEditarPedidosToolStripMenuItem.Text = "Ver/Editar pedidos";
             this.verEditarPedidosToolStripMenuItem.Click += new System.EventHandler(this.verEditarPedidosToolStripMenuItem_Click);
-            // 
-            // altaToolStripMenuItem
-            // 
-            this.altaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.meseroToolStripMenuItem,
-            this.mesaToolStripMenuItem,
-            this.proveedorToolStripMenuItem});
-            this.altaToolStripMenuItem.Name = "altaToolStripMenuItem";
-            this.altaToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.altaToolStripMenuItem.Text = "Alta";
-            // 
-            // meseroToolStripMenuItem
-            // 
-            this.meseroToolStripMenuItem.Name = "meseroToolStripMenuItem";
-            this.meseroToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.meseroToolStripMenuItem.Text = "Mesero";
-            // 
-            // mesaToolStripMenuItem
-            // 
-            this.mesaToolStripMenuItem.Name = "mesaToolStripMenuItem";
-            this.mesaToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.mesaToolStripMenuItem.Text = "Mesa";
-            // 
-            // proveedorToolStripMenuItem
-            // 
-            this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
-            this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.proveedorToolStripMenuItem.Text = "Proveedor";
-            // 
-            // modificarToolStripMenuItem
-            // 
-            this.modificarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mesaToolStripMenuItem1,
-            this.meseroToolStripMenuItem1,
-            this.proveedorToolStripMenuItem1});
-            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.modificarToolStripMenuItem.Text = "Modificar";
-            // 
-            // mesaToolStripMenuItem1
-            // 
-            this.mesaToolStripMenuItem1.Name = "mesaToolStripMenuItem1";
-            this.mesaToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
-            this.mesaToolStripMenuItem1.Text = "Mesa";
-            // 
-            // meseroToolStripMenuItem1
-            // 
-            this.meseroToolStripMenuItem1.Name = "meseroToolStripMenuItem1";
-            this.meseroToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
-            this.meseroToolStripMenuItem1.Text = "Mesero";
-            // 
-            // proveedorToolStripMenuItem1
-            // 
-            this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
-            this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
-            this.proveedorToolStripMenuItem1.Text = "Proveedor";
             // 
             // administrarToolStripMenuItem
             // 
@@ -184,33 +118,34 @@
             // mesasToolStripMenuItem1
             // 
             this.mesasToolStripMenuItem1.Name = "mesasToolStripMenuItem1";
-            this.mesasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mesasToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.mesasToolStripMenuItem1.Text = "Mesas";
+            this.mesasToolStripMenuItem1.Click += new System.EventHandler(this.mesasToolStripMenuItem1_Click);
             // 
             // meserosToolStripMenuItem1
             // 
             this.meserosToolStripMenuItem1.Name = "meserosToolStripMenuItem1";
-            this.meserosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.meserosToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.meserosToolStripMenuItem1.Text = "Meseros";
             this.meserosToolStripMenuItem1.Click += new System.EventHandler(this.meserosToolStripMenuItem1_Click);
             // 
             // platosToolStripMenuItem
             // 
             this.platosToolStripMenuItem.Name = "platosToolStripMenuItem";
-            this.platosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.platosToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.platosToolStripMenuItem.Text = "Platos";
             this.platosToolStripMenuItem.Click += new System.EventHandler(this.platosToolStripMenuItem_Click);
             // 
             // reservasToolStripMenuItem
             // 
             this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
-            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.reservasToolStripMenuItem.Text = "Reservas";
             // 
             // proveedoresToolStripMenuItem1
             // 
             this.proveedoresToolStripMenuItem1.Name = "proveedoresToolStripMenuItem1";
-            this.proveedoresToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.proveedoresToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.proveedoresToolStripMenuItem1.Text = "Proveedores";
             this.proveedoresToolStripMenuItem1.Click += new System.EventHandler(this.proveedoresToolStripMenuItem1_Click);
             // 
@@ -226,6 +161,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Restó";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -242,14 +179,6 @@
         private System.Windows.Forms.ToolStripMenuItem asignarMesasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem edicionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verEditarPedidosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem meseroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mesaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mesaToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem meseroToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem administrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mesasToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem meserosToolStripMenuItem1;

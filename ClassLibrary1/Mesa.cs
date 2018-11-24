@@ -8,7 +8,18 @@ namespace Dominio
 {
     public class Mesa
     {
-        public int id;
-        public string nombre;
+        public int id { get; set; }
+        public string Nombre { get; set; }
+        public string Detalles { get; set; }
+
+        public override string ToString()
+        {
+            return Nombre;
+        }
+
+        public static Mesa BuscarxId(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

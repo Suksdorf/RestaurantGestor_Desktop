@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Negocio;
 
 namespace TPC_Suksdorf
 {
@@ -14,7 +15,9 @@ namespace TPC_Suksdorf
     {
         public Form1()
         {
+            Jornada.Cargarjornada();
             InitializeComponent();
+            Text = Jornada.jornada.ToString();
         }
 
         private void pedidoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -26,12 +29,16 @@ namespace TPC_Suksdorf
         private void asignarMesasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_Admin frmAdmin = new frm_Admin();
-            frmAdmin.ShowDialog();
+            if (frmAdmin.ShowDialog() == DialogResult.OK)
+            {
+                frm_Asignacion frmAsignacion = new frm_Asignacion();
+                frmAsignacion.ShowDialog();
+            }
         }
 
         private void verEditarPedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_PedidosActivos frmPedidosActivos = new frm_PedidosActivos();
+            frmVistas frmPedidosActivos = new frmVistas(5);
             frmPedidosActivos.ShowDialog();
         }
 
@@ -51,6 +58,31 @@ namespace TPC_Suksdorf
         {
             frmVistas formulario = new frmVistas(3);
             formulario.ShowDialog();
+        }
+
+        private void mesasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmVistas formulario = new frmVistas(4);
+            formulario.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("¿Desea iniciar una nueva jornada?", "Jornada", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                frm_Admin formulario = new frm_Admin();
+                if(formulario.ShowDialog() == DialogResult.OK)
+                {
+                    Jornada.NuevaJornada();
+                    Jornada.Cargarjornada();
+                    Text = Jornada.jornada.ToString();
+                }
+            }
         }
     }
 }

@@ -54,8 +54,8 @@ namespace TPC_Suksdorf
         {
             if (plato != null)
             {
-                txtNombre.Text = plato.Nombre;
-                txtPrecio.Text = plato.Precio.ToString();
+                txtNombre.Text = plato.Nombre.Trim();
+                txtPrecio.Text = plato.Precio.ToString().Trim();
             }
         }
     }

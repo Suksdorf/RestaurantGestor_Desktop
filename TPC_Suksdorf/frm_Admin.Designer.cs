@@ -30,7 +30,7 @@
         {
             this.txt_Admin = new System.Windows.Forms.TextBox();
             this.lbl_Admin = new System.Windows.Forms.Label();
-            this.btn_Aceptar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.btn_Cancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -51,15 +51,16 @@
             this.lbl_Admin.Text = "Clave administrador:";
             this.lbl_Admin.Click += new System.EventHandler(this.lbl_Admin_Click);
             // 
-            // btn_Aceptar
+            // btnAceptar
             // 
-            this.btn_Aceptar.Location = new System.Drawing.Point(12, 100);
-            this.btn_Aceptar.Name = "btn_Aceptar";
-            this.btn_Aceptar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Aceptar.TabIndex = 2;
-            this.btn_Aceptar.Text = "Aceptar";
-            this.btn_Aceptar.UseVisualStyleBackColor = true;
-            this.btn_Aceptar.Click += new System.EventHandler(this.btn_Aceptar_Click);
+            this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnAceptar.Location = new System.Drawing.Point(12, 100);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 2;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btn_Aceptar_Click);
             // 
             // btn_Cancelar
             // 
@@ -77,7 +78,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(233, 157);
             this.Controls.Add(this.btn_Cancelar);
-            this.Controls.Add(this.btn_Aceptar);
+            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.lbl_Admin);
             this.Controls.Add(this.txt_Admin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -93,7 +94,7 @@
 
         private System.Windows.Forms.TextBox txt_Admin;
         private System.Windows.Forms.Label lbl_Admin;
-        private System.Windows.Forms.Button btn_Aceptar;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btn_Cancelar;
     }
 }

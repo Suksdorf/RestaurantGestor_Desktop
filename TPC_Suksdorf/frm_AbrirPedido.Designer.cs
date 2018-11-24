@@ -45,6 +45,7 @@
             this.cmb_Meseros.Name = "cmb_Meseros";
             this.cmb_Meseros.Size = new System.Drawing.Size(121, 21);
             this.cmb_Meseros.TabIndex = 0;
+            this.cmb_Meseros.SelectedIndexChanged += new System.EventHandler(this.cmb_Meseros_SelectedIndexChanged);
             // 
             // lbl_Mesero
             // 
@@ -117,6 +118,7 @@
             this.MinimizeBox = false;
             this.Name = "frm_AbrirPedido";
             this.Text = "Abrir Pedido";
+            this.Load += new System.EventHandler(this.frm_AbrirPedido_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

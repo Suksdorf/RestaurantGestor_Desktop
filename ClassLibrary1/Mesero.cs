@@ -8,7 +8,12 @@ namespace Dominio
 {
     public class Mesero : Persona
     {
-        public int id;
-        public string clave;
+        public int id { get; set; }
+        public string clave { get; set; }
+
+        public override string ToString()
+        {
+            return Nombre;
+        }
     }
 }

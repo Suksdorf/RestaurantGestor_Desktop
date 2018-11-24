@@ -47,6 +47,8 @@
             this.ltb_Meseros.Name = "ltb_Meseros";
             this.ltb_Meseros.Size = new System.Drawing.Size(193, 121);
             this.ltb_Meseros.TabIndex = 0;
+            this.ltb_Meseros.SelectedIndexChanged += new System.EventHandler(this.ltb_Meseros_SelectedIndexChanged);
+            this.ltb_Meseros.SelectedValueChanged += new System.EventHandler(this.ltb_Meseros_SelectedValueChanged);
             // 
             // ltb_Mesas
             // 
@@ -102,6 +104,7 @@
             this.btn_Asignar.TabIndex = 6;
             this.btn_Asignar.Text = "Asignar";
             this.btn_Asignar.UseVisualStyleBackColor = true;
+            this.btn_Asignar.Click += new System.EventHandler(this.btn_Asignar_Click);
             // 
             // btn_Eliminar
             // 

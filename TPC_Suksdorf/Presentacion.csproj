@@ -51,11 +51,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="frmJornada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="frmJornada.Designer.cs">
+      <DependentUpon>frmJornada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMesaAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMesaAM.Designer.cs">
+      <DependentUpon>frmMesaAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeserosAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeserosAM.Designer.cs">
+      <DependentUpon>frmMeserosAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlatosAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlatosAM.Designer.cs">
+      <DependentUpon>frmPlatosAM.cs</DependentUpon>
     </Compile>
     <Compile Include="frmProveedoresAM.cs">
       <SubType>Form</SubType>
@@ -104,8 +122,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="frmJornada.resx">
+      <DependentUpon>frmJornada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMesaAM.resx">
+      <DependentUpon>frmMesaAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeserosAM.resx">
+      <DependentUpon>frmMeserosAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlatosAM.resx">
+      <DependentUpon>frmPlatosAM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProveedoresAM.resx">
       <DependentUpon>frmProveedoresAM.cs</DependentUpon>

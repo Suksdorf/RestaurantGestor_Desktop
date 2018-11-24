@@ -41,12 +41,29 @@ namespace TPC_Suksdorf
                         this.Text = "Meseros";
                         MeseroNegocio mesero = new MeseroNegocio();
                         dgvVistas.DataSource = mesero.Listar();
+                        dgvVistas.Columns["id"].Visible = false;
+                        dgvVistas.Columns["Clave"].Visible = false;
                         break;
                     case 3:
                         Text = "Platos";
                         PlatoNegocio plato = new PlatoNegocio();
                         dgvVistas.DataSource = plato.Listar();
                         dgvVistas.Columns["Id"].Visible = false;
+                        break;
+                    case 4:
+                        Text = "Mesas";
+                        MesaNegocio mesa = new MesaNegocio();
+                        dgvVistas.DataSource = mesa.Listar();
+                        dgvVistas.Columns["Id"].Visible = false;
+                        break;
+                    case 5:
+                        Text = "Pedidos Activos";
+                        PedidoNegocio pedidoNegocio = new PedidoNegocio();
+                        dgvVistas.DataSource = pedidoNegocio.Listar();
+                        dgvVistas.Columns["Id"].Visible = false;
+                        btnAgregar.Hide();
+                        btnEliminar.Hide();
+                        btnModificar.Text = "Ver";
                         break;
                 }
             }
@@ -66,9 +83,17 @@ namespace TPC_Suksdorf
                         frmProveedoresAM formulario1 = new frmProveedoresAM();                      
                         formulario1.ShowDialog();
                         break;
-                    case 3:
-                        frmPlatoAM formulario2 = new frmPlatoAM();
+                    case 2:
+                        frmMeserosAM formulario2 = new frmMeserosAM();
                         formulario2.ShowDialog();
+                        break;
+                    case 3:
+                        frmPlatoAM formulario3 = new frmPlatoAM();
+                        formulario3.ShowDialog();
+                        break;
+                    case 4:
+                        frmMesaAM formulario4 = new frmMesaAM();
+                        formulario4.ShowDialog();
                         break;
                 }
             }
@@ -86,18 +111,35 @@ namespace TPC_Suksdorf
         {
             try
             {
-                switch (padre)
+                if (dgvVistas.CurrentRow != null )
                 {
-                    case 1:
-                        frmProveedoresAM formulario1 = new frmProveedoresAM((Proveedor)dgvVistas.CurrentRow.DataBoundItem);
-                        formulario1.Text = "Modificar proveedor";
-                        formulario1.ShowDialog();
-                        break;
-                    case 3:
-                        frmPlatoAM formulario = new frmPlatoAM((Plato)dgvVistas.CurrentRow.DataBoundItem);
-                        formulario.Text = "Modificar plato";
-                        formulario.ShowDialog();
-                        break;
+                    switch (padre)
+                    {
+                        case 1:
+                            frmProveedoresAM formulario1 = new frmProveedoresAM((Proveedor)dgvVistas.CurrentRow.DataBoundItem);
+                            formulario1.Text = "Modificar proveedor";
+                            formulario1.ShowDialog();
+                            break;
+                        case 2:
+                            frmMeserosAM formulario2 = new frmMeserosAM((Mesero)dgvVistas.CurrentRow.DataBoundItem);
+                            formulario2.Text = "Modificar mesero";
+                            formulario2.ShowDialog();
+                            break;
+                        case 3:
+                            frmPlatoAM formulario3 = new frmPlatoAM((Plato)dgvVistas.CurrentRow.DataBoundItem);
+                            formulario3.Text = "Modificar plato";
+                            formulario3.ShowDialog();
+                            break;
+                        case 4:
+                            frmMesaAM formulario4 = new frmMesaAM((Mesa)dgvVistas.CurrentRow.DataBoundItem);
+                            formulario4.Text = "Modificar mesa";
+                            formulario4.ShowDialog();
+                            break;
+                        case 5:
+                            frm_Pedido formulario5 = new frm_Pedido((Pedido)dgvVistas.CurrentRow.DataBoundItem, 2);
+                            formulario5.ShowDialog();
+                            break;
+                    }
                 }
             }
             catch (Exception ex)
@@ -123,9 +165,17 @@ namespace TPC_Suksdorf
                         ProveedorNegocio neg1 = new ProveedorNegocio();
                         neg1.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
                         break;
+                    case 2:
+                        MeseroNegocio neg2 = new MeseroNegocio();
+                        neg2.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
+                        break;
                     case 3:
                         PlatoNegocio neg3 = new PlatoNegocio();
                         neg3.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
+                        break;
+                    case 4:
+                        MesaNegocio neg4 = new MesaNegocio();
+                        neg4.eliminar((int)dgvVistas.CurrentRow.Cells["Id"].Value);
                         break;
                 }
             }

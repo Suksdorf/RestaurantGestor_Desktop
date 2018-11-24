@@ -61,3 +61,6 @@ C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmVistas.resources
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmPlatoAM.resources
 C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmProveedoresAM.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmMeserosAM.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmMesaAM.resources
+C:\Users\ferna\Desktop\Facultad\Prog III\TPC_Suksdorf\TPC_Suksdorf\obj\Debug\TPC_Suksdorf.frmJornada.resources

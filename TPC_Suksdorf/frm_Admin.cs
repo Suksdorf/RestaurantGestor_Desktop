@@ -12,6 +12,7 @@ namespace TPC_Suksdorf
 {
     public partial class frm_Admin : Form
     {
+
         public frm_Admin()
         {
             InitializeComponent();
@@ -29,10 +30,7 @@ namespace TPC_Suksdorf
 
         private void btn_Aceptar_Click(object sender, EventArgs e)
         {
-            frm_Asignacion frmAsignacion = new frm_Asignacion();
-            this.Close();
-            frmAsignacion.ShowDialog();
-            
+            Close();
         }
     }
 }
